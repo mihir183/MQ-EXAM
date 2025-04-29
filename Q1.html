@@ -39,13 +39,47 @@
                 width: 23%;
             }
 
-            /* .header {
+            header {
+                text-transform: capitalize;
+
                 .container {
                     .row {
-                       justify-content: center;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        img {
+                            height: 80px;
+                        }
+
+                        nav {
+                            display: flex;
+                            align-items: center;
+                            gap: 20px;
+
+                            ul {
+                                list-style: none;
+                                display: flex;
+                                gap: 20px;
+
+                                li {
+                                    a {
+                                        text-decoration: none;
+                                        color: black;
+                                    }
+                                }
+                            }
+
+                            .btn {
+                                button {
+                                    padding: 5px 10px;
+                                    background-color: lightgreen;
+                                    border-radius: 4px;
+                                }
+                            }
+                        }
                     }
                 }
-            } */
+            }
 
             .sec-1 {
                 margin: 20px 0;
@@ -126,6 +160,7 @@
             .footer {
                 background-color: darkgray;
                 padding: 25px;
+                text-transform: capitalize;
 
                 .container {
                     .row {
@@ -226,14 +261,23 @@
     </head>
 
     <body>
-        <!-- <header>
+        <header>
             <div class="container">
                 <div class="row">
-                    <h2>Blog</h2>
-                    <h2>Blog</h2>
+                    <img src="images/logo.jpg" alt="">
+                    <nav>
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                        <div class="btn">
+                            <button>Login</button>
+                        </div>
+                    </nav>
                 </div>
             </div>
-        </header> -->
+        </header>
 
         <section class="sec-1">
             <div class="container">
