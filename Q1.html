@@ -35,6 +35,18 @@
                 width: 30%;
             }
 
+            .w-25 {
+                width: 23%;
+            }
+
+            /* .header {
+                .container {
+                    .row {
+                       justify-content: center;
+                    }
+                }
+            } */
+
             .sec-1 {
                 margin: 20px 0;
 
@@ -79,27 +91,59 @@
                 }
             }
 
-            .sec-2{
+            .sec-2 {
                 margin-top: 30px;
                 margin-bottom: 50px;
-                .container{
-                    .row{
+
+                .container {
+                    .row {
                         gap: 20px;
-                        .w-30{
+
+                        .w-30 {
                             border: 1px solid black;
                             padding: 10px 20px;
                             padding-bottom: 50px;
                             line-height: 1.3;
-                            img{
+
+                            img {
                                 width: 100%;
                             }
-                            span{
+
+                            span {
                                 margin: 5px 0;
                                 color: gray;
                             }
-                            p{
+
+                            p {
                                 margin: 5px 0;
                                 font-size: 110%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footer {
+                background-color: darkgray;
+                padding: 25px;
+
+                .container {
+                    .row {
+                        .w-25 {
+                            ul {
+                                list-style: none;
+
+                                li {
+                                    line-height: 1.5;
+                                    color: black;
+                                    font-size: 100%;
+
+                                    &:first-child {
+                                        font-size: 130%;
+                                        color: grey;
+                                        margin-bottom: 10px;
+                                    }
+                                }
                             }
                         }
                     }
@@ -116,11 +160,29 @@
                     }
                 }
 
-                .sec-2{
-                    .row{
+                .sec-2 {
+                    .row {
                         gap: 10px;
-                        .w-30{
+
+                        .w-30 {
                             width: 40%;
+                        }
+                    }
+                }
+
+                .footer {
+                    .row {
+                        justify-content: center;
+                        flex-wrap: wrap;
+
+                        .w-25 {
+                            width: 45%;
+
+                            ul {
+                                li {
+                                    text-align: center;
+                                }
+                            }
                         }
                     }
                 }
@@ -143,7 +205,18 @@
                 .sec-2 {
                     .row {
                         flex-direction: column;
-                        .w-30{
+
+                        .w-30 {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .footer {
+                    .row {
+                        flex-direction: column;
+
+                        .w-25 {
                             width: 100%;
                         }
                     }
@@ -153,6 +226,15 @@
     </head>
 
     <body>
+        <!-- <header>
+            <div class="container">
+                <div class="row">
+                    <h2>Blog</h2>
+                    <h2>Blog</h2>
+                </div>
+            </div>
+        </header> -->
+
         <section class="sec-1">
             <div class="container">
                 <div class="row">
@@ -205,6 +287,50 @@
                         <img src="images/p2.png" alt="">
                         <span>company</span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, pariatur?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="w-25">
+                        <ul>
+                            <li>whether to buy</li>
+                            <li>see authorized retailer</li>
+                        </ul>
+                    </div>
+                    <div class="w-25">
+                        <ul>
+                            <li>sony reward</li>
+                            <li>join now</li>
+                            <li>learn more</li>
+                            <li>manage account</li>
+                        </ul>
+                    </div>
+                    <div class="w-25">
+                        <ul>
+                            <li>news & info</li>
+                            <li>press release</li>
+                            <li>abourt sony</li>
+                            <li>product support</li>
+                            <li>product manuals</li>
+                            <li>product registration</li>
+                            <li>newsletter sign up</li>
+                            <li>accessibility and usability</li>
+                        </ul>
+                    </div>
+                    <div class="w-25">
+                        <ul>
+                            <li>other sites</li>
+                            <li>playStation</li>
+                            <li>sony picture</li>
+                            <li>sony music</li>
+                            <li>sony mobile</li>
+                            <li>crackle</li>
+                            <li>sony squre NYC</li>
+                        </ul>
                     </div>
                 </div>
             </div>
